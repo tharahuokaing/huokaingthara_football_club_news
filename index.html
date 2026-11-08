@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Announcements | Huokaing Thara Football Club</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <h1><i class="fa-solid fa-shield-halved"></i> Huokaing Thara FC</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="en-text">Home</a><a href="index.html" class="kh-text" style="display:none;">ទំព័រដើម</a></li>
+                    <li><a href="about.html" class="en-text">About Us</a><a href="about.html" class="kh-text" style="display:none;">អំពីយើង</a></li>
+                    <li><a href="squad.html" class="en-text">Squad</a><a href="squad.html" class="kh-text" style="display:none;">កីឡាករ</a></li>
+                    <li><a href="news.html" class="active en-text">News</a><a href="news.html" class="active kh-text" style="display:none;">ព័ត៌មាន</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switch">
+                <button id="lang-btn" onclick="toggleLanguage()">🇰🇭 ខ្មែរ</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title Banner -->
+    <section class="page-title">
+        <div class="container">
+            <h2 class="en-text">Club News & Announcements</h2>
+            <h2 class="kh-text" style="display:none;">ព័ត៌មាន និងសេចក្តីប្រកាសរបស់ក្លឹប</h2>
+            <p class="en-text">Stay updated with the latest coaching updates, training sessions, and team activities.</p>
+            <p class="kh-text" style="display:none;">តាមដានព័ត៌មានថ្មីៗអំពីគ្រូបង្វឹក ការហ្វឹកហាត់ និងសកម្មភាពរបស់ក្រុម។</p>
+        </div>
+    </section>
+
+    <!-- News Feed Section -->
+    <section class="container section">
+        <div class="news-grid">
+
+            <!-- News Item 1: Coaching Update -->
+            <div class="news-card featured-news">
+                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> Official Update</div>
+                <h3 class="en-text">Interim Coaching & Health Update: Coach Seng Chhat</h3>
+                <h3 class="kh-text" style="display:none;">ដំណឹងបច្ចុប្បន្នភាពគ្រូបង្វឹក៖ លោកគ្រូ សេង ឆាត</h3>
+                <p class="en-text">Due to temporary health recovery, Head Coach Mr. Seng Chhat is resting. Founder Mr. Huokaing Thara has stepped in as interim coach, managing training sessions until Coach Seng Chhat returns to lead the 22-man squad.</p>
+                <p class="kh-text" style="display:none;">ដោយសារបញ្ហាសុខភាពបណ្តោះអាសន្ន លោកគ្រូបង្វឹក សេង ឆាត កំពុងសម្រាកព្យាបាល។ លោក ហួកាំង ថារ៉ា បានទទួលបន្ទុកជាគ្រូបង្វឹកបណ្តោះអាសន្ន ដឹកនាំការហ្វឹកហាត់ រង់ចាំលោកគ្រូត្រឡប់មកវិញ។</p>
+            </div>
+
+            <!-- News Item 2: Recruitment Turnout -->
+            <div class="news-card">
+                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> Recruitment Event</div>
+                <h3 class="en-text">Massive Turnout for 22-Man Squad Registration!</h3>
+                <h3 class="kh-text" style="display:none;">បេក្ខភាពចុះឈ្មោះរើសកីឡាករយ៉ាងកុះករ!</h3>
+                <p class="en-text">Incredible energy at our registration booth right in front of the old court! Both male and female candidates showed immense passion to join Huokaing Thara FC.</p>
+                <p class="kh-text" style="display:none;">សកម្មភាពចុះឈ្មោះរើសកីឡាកររបស់ក្លឹបបាល់ទាត់ ហួកាំង ថារ៉ា ពិតជាកុះករមែនទែន មានទាំងស្រីនិងប្រុស ទីតាំងនៅទល់មុខតុលាការចាស់!</p>
+            </div>
+
+            <!-- News Item 3: Training & Motto -->
+            <div class="news-card">
+                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> Training Session</div>
+                <h3 class="en-text">Hard Work Never Stops: Training at Olympic Stadium</h3>
+                <h3 class="kh-text" style="display:none;">ការហ្វឹកហាត់នៅពហុកីឡដ្ឋានជាតិអូឡាំពិក</h3>
+                <p class="en-text">Living by our core motto: *"Health lives in peace, and sport is for health."* Our squad continues rigorous exercises and drills under interim leadership.</p>
+                <p class="kh-text" style="display:none;">ឈរលើបាវចនា៖ «សុខភាពរស់នៅក្នុងសន្តិភាព ហើយកីឡានាំមកនូវសុខភាព» ក្រុមរបស់យើងបន្តហ្វឹកហាត់យ៉ាងសកម្ម.</p>
+            </div>
+
+            <!-- News Item 4: Tournament & Beer/Cigarette Joke -->
+            <div class="news-card">
+                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> Community & Humor</div>
+                <h3 class="en-text">Security Check & Next Season Focus</h3>
+                <h3 class="kh-text" style="display:none;">សេចក្តីកត់សម្គាល់ និងទិសដៅរដូវកាលក្រោយ</h3>
+                <p class="en-text">While missing this national tournament due to registration and coaching transitions—and strict security rules blocking beer/cigarettes at the venue—we are shifting focus to training hard for future matches!</p>
+                <p class="kh-text" style="display:none;">ខកខានការប្រកួតព្រោះកងកម្លាំងមិនអនុញ្ញាតយកបារីនិង Beer ចូល និងរឿងចុះឈ្មោះ ប៉ុន្តែពួកយើងនឹងបន្តហ្វឹកហាត់សម្រាប់ឱកាសក្រោយ!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <h3>Huokaing Thara FC</h3>
+                <p class="en-text">Official Website: <a href="https://tharahuokaing.github.io/huokaingthara_football_club/" target="_blank">tharahuokaing.github.io</a></p>
+                <p class="kh-text" style="display:none;">គេហទំព័រផ្លូវការ៖ <a href="https://tharahuokaing.github.io/huokaingthara_football_club/" target="_blank">tharahuokaing.github.io</a></p>
+            </div>
+            <div>
+                <h3 class="en-text">Social Channels</h3>
+                <h3 class="kh-text" style="display:none;">បណ្តាញសង្គម</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Huokaing Thara Football Club. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
